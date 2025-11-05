@@ -1,0 +1,1 @@
+kubectl exec message-bus-redpanda-0 -n red-panda -- rpk topic consume spot_device_mount -X user=admin -X pass='gkneGj7w0bLAOE4UF3dqi8LZRYUhLp0P' -X sasl.mechanism=SCRAM-SHA-512 -f "%k %v\n" -o "start" | grep -i -E "WMBUS-3330573517000B32"
