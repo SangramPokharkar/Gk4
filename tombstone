@@ -1,0 +1,4 @@
+./bulk-tombstone-producer -csv ./spots.csv -user replex -pass M1tAuqCF4CMGtQWs5aMM8GZYe -brokers prod.backend.gk4null.de:9093 -topic spot_device_mount_seed > tombstone_results_1.log
+
+ 
+ 
